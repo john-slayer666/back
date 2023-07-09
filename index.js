@@ -6,7 +6,7 @@ import { registerValidation, loginValidation, postCreateValidation } from './val
 import { handleValidationErrors, checkAuth } from './utils/index.js';
 import { UserController, PostController } from './controllers/index.js';
 
-// mongoose.connect('mongodb+srv://admin:5696@cluster0.tm4ausg.mongodb.net/blog?retryWrites=true&w=majority',)
+
 
 mongoose
     .connect(process.env.MONGODB_URI)
